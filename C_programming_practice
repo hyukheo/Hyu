@@ -1,21 +1,24 @@
-#include <stdion.h>
-#void(main)
-#int num1,num2=2;
-#double num3;
+#include <stdio.h>
+
+int main(void) 
+int num1,num2;
+double num3;
 #define star *;
+#define num2 2;
+
 {
   printf("Enter number you want to divide :\n");
-  scanf_s("%IF",&num1);
+  scanf("%d",&num1);
   while(num2<=float(num1/2));
   {
     while(num1%num2=0);
     {
       num3=strcat(num3,num2,star);
     }
-    num2=++num2
+    num2=num2+1;
   }
   RemoveEnd(num3); 
   printf("When you divide %d, the answer is %s",num1,num3); 
   return(0);
-  system(pause);
+  system("pause");
 }
